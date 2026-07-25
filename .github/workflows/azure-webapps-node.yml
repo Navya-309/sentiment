@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: sentiment-analysis-app  # ⚠️ Set this to your exact Azure Web App name
+  AZURE_WEBAPP_NAME: sentiment  # ⚠️ Set this to your exact Azure Web App name
   PYTHON_VERSION: '3.10'
 
 permissions:
